@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua Receita</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="box-card">
+        <div class="frame">
+            <button class="custom-btn btn-12" onclick="window.location.href='index-00.html'"><span>home</span><span>Voltar</span></button>
+        </div>
+        <form action="#" method="post">
+            <fieldset class="box-internal">
+                <div class="i-box">
+
+                    <fieldset class="grupo">
+                        <div class="campo">
+                        <label for="nome">Nome da receita</label>
+                <input type="text" id="nome" name="nome" style="width: 10em" value="">
+            </div>
+        </fieldset>
+        <div class="campo">
+            <label>Categoria</label>
+            <label>
+                <input type="radio" name="categoria" value="doce">Docê
+            </label>
+            <label>
+                <input type="radio" name="categoria" value="salgado">Salgado
+            </label>
+            <label>
+                <input type="radio" name="categoria" value="fitness">Fitness
+            </label>
+            <label>
+                <input type="radio" name="categoria" value="vegano">Vegano
+            </label>
+        </div>
+        <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email" style="width: 20em" value="">
+        </div>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="tipo">Tipo</label>
+                <input type="text" id="tipo" name="cidade" style="width: 10em" value="">
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="receita">Receita</label>
+            <textarea rows="20" style="width: 95%" id="receita" name="receita"></textarea>
+        </div>
+        <div class="campo">
+            <label>Concordo com os termos e estou sugeito a qualquer bloqueio da plataforma.
+                <input type="checkbox" name="contrato" value="1">
+            </label>
+        </div>
+        <button type="submit" name="submit">Enviar</button>
+    </div>
+    </fieldset>
+</form>
+</div>
+<footer class="o-footer">
+    <div class="footer">
+        <h1 class="h1-01">Trabalho de Pde</h1> 
+        <p>Professora: Yvelize</p>
+        <p>Alunos: Josney e Diego</p>    
+        <p>1°Ano do ensino medio tecnico em desenvolvimento de sistemas</p>
+    </div>
+</footer>
+<script type="text/javascript" src="javascript.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".box-in"), {
+        max: 10,
+        speed: 100,
+        glare: true,
+        "max-glare": 0.1,
+    }
+    );
+    </script>
+</body>
+</html>

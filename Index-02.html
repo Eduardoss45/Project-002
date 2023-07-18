@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="section">
+    <div class="frame">
+        <button class="custom-btn btn-12 btn-position-01" onclick="window.location.href='index-00.html'"><span>home</span><span>Voltar</span></button>
+    </div>
+        <div class="form-box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Conecte-se</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="">password</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remenber Me</label>
+                        <div class="link">
+                            <a href="#">Forget Password</a>                      
+                        </div>
+                    </div>
+                    <button class="custom-btn btn-12 btn-position" onclick="window.location.href='index-00.html'"><span>Conecte-se</span><span>log in</span></button>
+                    <div class="register">
+                        <p>Don't have a account 
+                           <div class="link">
+                               <a href="#">Register</a>
+                           </div> 
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="javascript.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".form-box"), {
+        max: 10,
+        speed: 100,
+        glare: true,
+        "max-glare": 0.1,
+    }
+    );
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

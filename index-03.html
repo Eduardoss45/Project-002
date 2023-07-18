@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/d4226dbb33.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="javascript.js"></script>
+    <title>Votação</title>
+</head>
+
+<body>
+    <aside>
+        <div class="frame">
+            <button class="custom-btn btn-12"
+                onclick="window.location.href='index-00.html'"><span>home</span><span>Voltar</span></button>
+        </div>
+        <nav>
+            <ol>
+                <li>
+                    <details class="texto-01">
+                        <summary>Escolha seu voto</summary>
+                        <div>
+                            <input id="Barra-01" onkeyup="buscar_receita()" type="text"
+                            name="search" placeholder="Buscar...">
+                        </div>
+                        <div class="box-search-01">
+                            <ul id='lista' class="lista-01">
+                                <li class="itens-00"><a href="#" class="receitas-00" >Brownie</a></li>
+                                <li class="itens-00"><a href="#" class="receitas-00" >Bolinho de chuva</a></li>
+                                <li class="itens-00"><a href="#" class="receitas-00" >Pão de queijo de frigideira</a></li>
+                                <li class="itens-00"><a href="#" class="receitas-00" >Salada</a></li>
+                                <li class="itens-00"><a href="#" class="receitas-00" >Torta de morango</a></li>
+                                <li class="itens-00"><a href="#" class="receitas-00" >Torta de presunto e mussarela</a></li>
+                            </ul>
+                        </div>
+                            <h1 id="box">
+                                </h1>
+                        <figure class="brd">
+                            <img class="ils" src="imagens/ilustração.png" width="400px" alt="">
+                            <figcaption>Type: None</figcaption>
+                        </figure>
+                        <a href="javascript:void(0)" onclick="Avaliar(1)">
+                            <img src="imagens/star0.png" width="20px" id="s1"></a>
+
+                        <a href="javascript:void(0)" onclick="Avaliar(2)">
+                            <img src="imagens/star0.png" width="20px" id="s2"></a>
+
+                        <a href="javascript:void(0)" onclick="Avaliar(3)">
+                            <img src="imagens/star0.png" width="20px" id="s3"></a>
+
+                        <a href="javascript:void(0)" onclick="Avaliar(4)">
+                            <img src="imagens/star0.png" width="20px" id="s4"></a>
+
+                        <a href="javascript:void(0)" onclick="Avaliar(5)">
+                            <img src="imagens/star0.png" width="20px" id="s5"></a>
+                        <p id="rating">0</p>
+                    </details>
+                </li>
+            </ol>
+        </nav>
+    </aside>
+    <script type="text/javascript" src="javascript.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".texto-01"), {
+            max: 1,
+            speed: 100,
+            glare: true,
+            "max-glare": 0.1,
+        }
+        );
+    </script>
+</body>
+
+</html>
