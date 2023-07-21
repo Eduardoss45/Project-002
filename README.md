@@ -22,4 +22,4 @@ Lista de tarefas:
 
 HTML | CSS | JS
 ---|---|---
-8 | 1 | 1
+7 | 1 | 1
