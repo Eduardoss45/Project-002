@@ -20,6 +20,6 @@ Lista de tarefas:
 
 ![Receitas que nem a vovó sabe!](https://github.com/Eduardoss45/Project-002/assets/119471845/5467b797-18e4-4f47-bfc2-36e87e653c63)
 
-HTML | CSS | JS
+`HTML` | `CSS` | `JS`
 ---|---|---
 7 | 1 | 1
