@@ -19,7 +19,7 @@ Lista de tarefas📑
 - [ ] Finalizar
 
 ![Receitas que nem a vovó sabe!](https://github.com/Eduardoss45/Project-002/assets/119471845/5467b797-18e4-4f47-bfc2-36e87e653c63)
-<a href="https://eduardoss45.github.io/Project-002/index-01.html">Execute o projeto.</a>
+<a href="https://eduardoss45.github.io/Project-002/index-00.html">Execute o projeto.</a>
 `HTML` | `CSS` | `JS`
 ---|---|---
 7 | 1 | 1
